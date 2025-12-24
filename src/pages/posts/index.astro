@@ -15,7 +15,7 @@ const posts = (await getCollection('blog')).sort(
     <!-- Text above list of posts -->
     <header class="page-header">
         <h1>My very cool blog</h1>
-        <p class="tagline">Make this unique!</p>
+        <p class="tagline">by <a href="github.com/sagrusea">Sagrusea</a></p>
     </header>
 
     {posts.length === 0 && <p class="empty">No posts yet :(</p>}

@@ -1,6 +1,6 @@
 :root {
 	--bg: #f8f9fa;
-	--surface: #ffffff;
+	--surface: #fafbfc;
 	--border: #e9ecef;
 	--text: #212529;
 	--muted: #6c757d;
@@ -15,9 +15,10 @@
 body {
 	margin: 0;
 	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-	background: var(--bg);
+	background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 	color: var(--text);
 	line-height: 1.6;
+	min-height: 100vh;
 }
 
 a {
